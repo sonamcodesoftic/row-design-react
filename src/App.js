@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Headerpage from './Component/Header/Headerpage';
+// import Bloghomepage from './Component/Blog/Bloghomepage';
+import Sidebarpage from './Component/Dashboard/Sidebarpage';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       </header> */}
       
     </div>
-    <Headerpage />
+    {/* <Bloghomepage /> */}
+    {/* <Sidebarpage />  */}
+     <Headerpage />  
     </>
   );
 }
