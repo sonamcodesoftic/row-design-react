@@ -3,6 +3,7 @@ import './App.css';
 import Headerpage from './Component/Header/Headerpage';
 // import Bloghomepage from './Component/Blog/Bloghomepage';
 import Sidebarpage from './Component/Dashboard/Sidebarpage';
+import Sidebarpagenew from './Component/Sidebar/Sidebarpagenew';
 
 function App() {
   return (
@@ -25,10 +26,10 @@ function App() {
       
     </div>
     {/* <Bloghomepage /> */}
-    {/* <Sidebarpage />  */}
-     <Headerpage />  
+    <Sidebarpage /> 
+    {/* <Sidebarpagenew /> */}
+     {/* <Headerpage />   */}
     </>
   );
 }
-
 export default App;

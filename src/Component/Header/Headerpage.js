@@ -8,8 +8,8 @@ const Headerpage = () => {
     return(
         <>
         <Router>
-        <div> 
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class=""> 
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-position">
             <Link class="navbar-brand" to = "/">Navbar</Link>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
              <span class="navbar-toggler-icon"></span>
@@ -23,6 +23,10 @@ const Headerpage = () => {
       </li> 
       <li class="nav-item">
         <Link to = "/Loginpage" class="nav-link "><u> LOGIN </u></Link>
+        {/* <a class="nav-link blog-item" href="#">BLOG</a> */}
+      </li>
+      <li class="nav-item">
+        <Link to = "/Sidebarpage" class="nav-link "><u> Dashboard </u></Link>
         {/* <a class="nav-link blog-item" href="#">BLOG</a> */}
       </li>
     </ul>

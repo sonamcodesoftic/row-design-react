@@ -38,7 +38,7 @@
 } */
 .blog-item
 {
-margin-left: 73em;
+margin-left: 69em;
 }
 ul
 {
@@ -79,7 +79,7 @@ ul
 }
 .blogcard-container 
 {
-  margin-top: 10%!important;
+  /* margin-top: 10%!important;  */
   box-shadow: 3px 2px 5px #585856;
 }
 .blog-horizon-line
@@ -167,4 +167,92 @@ ul
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Css For Slider */
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #343a40;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a:hover
+{
+  background-color: #ffffff;
+  color: #343a40;
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+/*  .sidebar a.active {
+  background-color: #ffffff;
+  color: #000000;
+} 
+
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+} */
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.siderblogpage
+{
+  margin-left: 20%!important;
+}
+.siderblogpage-mr
+{
+  margin-left: 20%!important;
+  
+}
+.siderblogpage-new
+{
+  width: 60%!important;
+  text-align: center;
+}
 
