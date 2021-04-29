@@ -105,7 +105,7 @@ const Blogcard = () => {
                       <img src="https://www.ning.com/blog/wp-content/uploads/2017/04/make-money-blogging.jpg"   />
                   </div>
                   <div class="col-md-8 pt-3  blog-content">
-                      <h3>The best IT Solutions - CODESOFTIC </h3>
+                      <h3>The best IT Solutions - CODESOFTIC SOLUTIONS </h3>
                       <hr class="blog-horizon-line"></hr>
                       <p class="blog-content-para">
                       Blogging is a popular, rewarding, and lifestyle-friendly activity. Creator status 

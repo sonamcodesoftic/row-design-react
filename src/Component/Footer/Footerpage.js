@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footerpage = () => {
     return (
-        <div>
+        <>
+        <div class="page-style">
              <div class="footer mt-5">
              
              <div class="container">
@@ -58,6 +59,7 @@ const Footerpage = () => {
              </div>
          </div>
         </div>
+        </>
     ); 
 }
 export default Footerpage;

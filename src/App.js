@@ -3,7 +3,8 @@ import './App.css';
 import Headerpage from './Component/Header/Headerpage';
 // import Bloghomepage from './Component/Blog/Bloghomepage';
 import Sidebarpage from './Component/Dashboard/Sidebarpage';
-import Sidebarpagenew from './Component/Sidebar/Sidebarpagenew';
+import Navbarpage from './Component/Navbar/Navbarpage';
+
 
 function App() {
   return (
@@ -23,12 +24,11 @@ function App() {
           Learn React
         </a>
       </header> */}
-      
     </div>
     {/* <Bloghomepage /> */}
-    <Sidebarpage /> 
-    {/* <Sidebarpagenew /> */}
+    {/* <Sidebarpage />  */}
      {/* <Headerpage />   */}
+     <Navbarpage />
     </>
   );
 }
