@@ -2,7 +2,8 @@ import React from 'react';
 
 const Blogslider = () => {
     return (
-        <div>
+        <>
+        <div class="page-style">
             <div id="demo" class="carousel slide mb-5" data-ride="carousel">
                <ul class="carousel-indicators">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -41,6 +42,7 @@ const Blogslider = () => {
         </div>
             
         </div>
+        </>
     );
 
 }

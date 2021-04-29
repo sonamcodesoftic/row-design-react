@@ -2,7 +2,8 @@ import React from 'react';
 import Footerpage from '../Footer/Footerpage';
 const Onepageblog = () => {
     return (
-        <div>
+      <>
+        <div class="page-style">
              <div class="container"> 
                  <div class="row"> 
                    <div class="col-md-12 blog-full-content mt-5">
@@ -69,8 +70,9 @@ const Onepageblog = () => {
                    </div>
                  </div>
              </div>
-             <Footerpage />
         </div> 
+        {/* <Footerpage /> */}
+        </>
     );
 }
 export default Onepageblog;
